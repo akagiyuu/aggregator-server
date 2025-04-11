@@ -1,11 +1,9 @@
-mod borrow;
 mod lend;
+mod operation;
 mod provider;
-mod stake;
 mod token;
 
-pub use borrow::*;
 pub use lend::*;
+pub use operation::*;
 pub use provider::*;
-pub use stake::*;
 pub use token::*;

@@ -1,4 +1,4 @@
 pub struct Token {
-    id: i32,
-    name: String,
+    pub id: i32,
+    pub name: String,
 }
